@@ -1,0 +1,107 @@
+body{
+    background-image:linear-gradient( #FF9A8B,#80D0C7 ,#FF99AC);
+  }
+  
+  .container{
+      width:1023px ;
+      min-height:300px ;
+      margin-left:auto ;
+      margin-right:auto ;
+      display: grid inline-grid;
+
+      
+  }
+  
+   header {
+      display: flex;
+      justify-content: space-around;
+      align-items:center;
+      padding-top: 20px;
+      padding-bottom: 20px;
+   }
+   .cards{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 0px;
+      padding-bottom: 0px;
+     background-image: cover;
+      display: grid inline-grid;
+      align-items: center;
+
+    } 
+    
+     .card1{
+       
+        justify-content: space-between;
+        align-items: left;
+        text-align: center;
+        display: inline-block;
+        margin: 0 0 10px 25px;
+        padding-left: 60px;
+    
+     }
+     .card2{
+      
+       justify-content: space-between;
+        text-align: left;
+        display: inline-block;
+        margin: 0 0 10px 25px;
+        padding-left: 60px;
+     }
+     .card3{
+          
+      
+       justify-content: space-between;
+        align-items: left;
+        text-align: center;
+        display: inline-block;
+        margin: 0 0 10px 25px;
+        padding-left: 60px;
+    
+     }
+    
+    
+     main{
+        
+        min-height: 300px; 
+        display: flex;
+        align-items: center;
+     } 
+     
+     .herobox1 {
+         width:50% ;
+    padding-right:0px ;
+         flex: 2;
+     }
+    
+     .herobox2 {
+        width:50% ;
+        flex: 1;
+    }
+    img{
+        padding:25px;
+        width: 300px;
+        background-image: cover;
+        display: flex;  
+       justify-content: space-between;
+        align-items: center;
+    }
+
+      
+      h1{
+          font-size: 25px;
+          color: white;
+          font-family: sans-serif;
+        
+       } 
+      
+    .button{
+        background-color: #FF99AC;
+        padding-inline-end: 0;
+        color: white;
+
+
+    }
+
+  
+  
